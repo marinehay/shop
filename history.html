@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
     <title>Hello, world!</title>
@@ -191,7 +191,7 @@
 </div>
   
   <div class="modal fade" id="RegModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  < class="modal-dialog">
+  <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLabel">Registration</h5>
@@ -226,108 +226,119 @@
         </form>
       </div>
     </div>
-</div>
-                                                            <br>
-     <div class="container-fluid" >
-           
-          
-          
-          
-<div class="row bg-light" >
+  </div>
+</div>                                          
+              
+         <br>                                                   
+                                  
+
+                                  <div class="container-fluid" >                   
+                          <div class="row bg-light" >
      
-<nav aria-label="breadcrumb"  class="col-lg-9 mt-3 ml-2">
+<nav aria-label="breadcrumb"  class="col-lg-11 mt-3 ml-2">
   <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a class="text-dark font-weight-bold" href="index.html">Գլխավոր</a></li>
-    <li class="breadcrumb-item active" aria-current="page">Խանութ</li>
-                  <li class="breadcrumb-item active" aria-current="page">Զեղչեր</li>
+    <li class="breadcrumb-item"><a class="text-dark font-weight-bold" href="history.html">Պատվերների Պատմություն</a></li>
+    
+                <li class="breadcrumb-item active"><a class="text-dark" href="account.html">Իմ Էջը</a></li>
   </ol>
 </nav>
                                                                         
           
-          <form class="d-flex justify-content-center form-inline col-lg col-6 ">
-  <select class="custom-select my-1 mr-sm-2 bg-light d-md-none d-lg-block d-sm-none" id="inlineFormCustomSelectPref">
-    <option value="1">Նոր Տեսականի</option>
-    <option value="2">Զեղչեր</option>
-    <option value="3">հաճախ գնվող</option>
-  </select>
-  </form>
                     
   
  
         </div>
 
-   
+        <br>
+
+
+      <div class="row">
+        <div class="d-none d-md-block col-md-12 text-center">
           
-                     
-                     
-                     
-                     
-                     
-                     <div class="content">
-      <div class="container">
-        <br>
-   <h2 class="text-dark" style="background-color: #b3abab; text-align: center">Վարդի բույրով յուղեր</h2>
-        <br>
-        <div class="row">
-  <div class="col col-xl-3 col-lg-3 col-md-3 d-none d-sm-none d-md-block d-lg-block d-xl-block ">
-    <div class="row">
-      <div class="col col-xl-12 col-lg-12 col-md-12 d-none d-sm-none d-md-block d-lg-block d-xl-block"> 
-        <a data-fancybox="gallery" href="https://i.pinimg.com/564x/03/1d/a9/031da9ec7e014d75e7e11002bd72903d.jpg"><img src="https://i.pinimg.com/564x/03/1d/a9/031da9ec7e014d75e7e11002bd72903d.jpg" class=" img-fluid w-60"></a>
-      </div><br>
-      <div class="col col-xl-12 col-lg-12 col-md-12 d-none d-sm-none d-md-block d-lg-block d-xl-block"> 
-        <a data-fancybox="gallery" href="https://i.pinimg.com/564x/2b/b7/0c/2bb70cda157b851e2e9fb056d63212f0.jpg"><img src="https://i.pinimg.com/564x/2b/b7/0c/2bb70cda157b851e2e9fb056d63212f0.jpg" class=" img-fluid w-60"></a>
-        </div>
-    </div>
+        </div> 
       </div>
-    <div class="col col-xl-3"> 
-      <a data-fancybox="gallery" href="https://i.pinimg.com/564x/e2/bd/94/e2bd9460f2f0a792265a599067074142.jpg"><img src="https://i.pinimg.com/564x/e2/bd/94/e2bd9460f2f0a792265a599067074142.jpg" class="img-fluid w-100"></a>
-      </div>
-    <div class="col col-xl-3">
-      <form>
-  <div class="form-row align-items-center">
-    <div class="col-auto my-1">
-      <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
-        <option selected>30մլ</option>
-        <option value="1">50մլ</option>
-        <option value="2">100մլ</option>
-        <option value="3">150մլ</option>
-      </select>
-    </div>
-          <div class="custom-control custom-switch">
-  <input type="checkbox" class="custom-control-input" id="customSwitch1">
-</div>
-<div class="custom-control custom-switch">
-  <input type="checkbox" class="custom-control-input" id="customSwitch2">
+      
+      <h2 class="text-dark" style="background-color: #b3abab; text-align: center">Գնված Ապրանքներ</h2><br>
+
+
+      <table class="table">
+  <thead class="thead-light">
+    <tr>
+      <th scope="col"></th>
+      <th scope="col">Նկար</th>
+      <th scope="col">Անվանում</th>
+      <th scope="col">Գնման Ամսաթիվ</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      
+      <td ><img src="https://i.pinimg.com/564x/48/30/3f/48303f3aa5ce7204a11c6f049823062b.jpg" width="90"></td>
+      <td><h4>LANEIGE Glowy Makeup Serum</h4></td>
+      <td>09/03/2020</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td><img src="https://i.pinimg.com/564x/5f/b5/34/5fb534a31f3336a062ea9e8a35ec69a5.jpg" width="90"></td>
+      <td><h4>Fourth Ray Beauty</h4></td>
+      <td>13/05/2020</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td><img src="https://i.pinimg.com/564x/68/a5/64/68a5644b57bc00aa8784df4785e11339.jpg" width="90"></td>
+      <td><h4>Coco Rose Exfoliating Body Scrub</h4></td>
+      <td>24/07/2020</td>
+    </tr>
+  </tbody>
+</table>
+
+
+<h2 class="text-dark" style="background-color: #b3abab; text-align: center">Հավանած Ապրանքներ</h2><br>
+
+
+<table class="table">
+  <thead class="thead-light">
+    <tr>
+      <th scope="col"></th>
+      <th scope="col">Նկար</th>
+      <th scope="col">Անվանում</th>
+      <th scope="col">Գնման Ամսաթիվ</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      
+      <td ><img src="https://i.pinimg.com/564x/48/30/3f/48303f3aa5ce7204a11c6f049823062b.jpg" width="90"></td>
+      <td><h4>LANEIGE Glowy Makeup Serum</h4></td>
+      <td>09/03/2020</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td><img src="https://i.pinimg.com/564x/5f/b5/34/5fb534a31f3336a062ea9e8a35ec69a5.jpg" width="90"></td>
+      <td><h4>Fourth Ray Beauty</h4></td>
+      <td>13/05/2020</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td><img src="https://i.pinimg.com/564x/68/a5/64/68a5644b57bc00aa8784df4785e11339.jpg" width="90"></td>
+      <td><h4>Coco Rose Exfoliating Body Scrub</h4></td>
+      <td>24/07/2020</td>
+    </tr>
+  </tbody>
+</table>
  
+ <div class="ml-auto" style="width: 100px;">
+<a href="shipping.html"  class="btn btn-secondary col-auto">Գնել<i class="fas fa-shopping-cart"></i></a>
 </div>
-  </div>
-</form>
-
-<br>
-<div class="custom-control custom-radio custom-control-inline">
-  <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
-  <label class="custom-control-label" for="customRadioInline1">Դեմքի համար</label>
-</div><br> 
-<div class="custom-control custom-radio custom-control-inline">
-  <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
-  <label class="custom-control-label" for="customRadioInline2">Ձեռքերի համար</label>
-  </div><br>
-<div class="custom-control custom-radio custom-control-inline">
-  <input type="radio" id="customRadioInline3" name="customRadioInline1" class="custom-control-input">
-  <label class="custom-control-label" for="customRadioInline3">Մարմնի համար</label>
-</div><br>
-
-      <br>
-      <p>Վարդի բույրով այս օգտակար յուղերը կդարձնեն մաշկը փափուկ, հարթ և մետաքսանման, կվերադարձնեն նրան գեղեցիկ, բնական գույն և խոնավություն</p>
-                                                              <h2>7900 դրամ</h2><br>
-  
- <a href="cart.html" type="button" class="btn btn-secondar">Գնել<i class="fas fa-shopping-cart"></i></a>
-    </div>
-</div> 
-              
-         <br>                                                   
+                                                            
+                                          
                                                      
-                                                                                               <div class="px-3 mt-4">
+                                             
+                                   
+                                                                                                    
+      <div class="px-3 mt-4">
         <h2 class="text-dark" style="background-color: #b3abab; text-align: center">ԲԱԺԻՆՆԵՐ</h2>
         <div class="w-100 mb-3"></div>
         <div class="row justify-content-between">
@@ -371,7 +382,7 @@
           </div>
         </div>
       </div>
-    
+    </div>
                                                                                                     
                                                                                                     <nav aria-label="Page navigation example">
   <ul class="pagination justify-content-center">
@@ -390,6 +401,31 @@
     </li>
   </ul>
 </nav>
+
+<br>
+
+
+<h2 class="text-dark" style="background-color: #b3abab; text-align: center">ԿԱՊ</h2>
+                <form role="form" id="contactForm" method="post">
+                  <div class="form-group">
+                    <label for="contactName">Անուն</label>
+                    <input class="form-control" type="text" id="contactName" name="contactName"placeholder="Գրեք Ձեր Անունը" />
+                  </div>
+                  <div class="form-group">
+                    <label for="contactEmail">Էլ. Փոստ</label>
+                    <input class="form-control" type="email" id="contactEmail" name="contactEmail" placeholder="Գրեք Ձեր Էլ. Փոստը" />
+                  </div>
+                  <div class="form-group">
+                    <label for="contactMessage">Նամակ</label>
+                    <textarea class="form-control" id="contactMessage" name="contactMessage" rows="3" placeholder="Գրեք Նամակ"></textarea>
+                  </div>
+
+                  <div class="form-group">
+                    <button type="button" class="btn btn-secondary">Ուղարկել</button>
+                  </div>
+                </form>
+
+
                                              <footer>
 
       <div class="container">
@@ -485,6 +521,5 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
   </body>
 </html> 
